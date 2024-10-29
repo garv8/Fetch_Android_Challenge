@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listSelectionFragment">
+
+    <fragment
+        android:id="@+id/listSelectionFragment"
+        android:name="com.example.fetch.view.ListSelectionFragment"
+        android:label="Select List">
+        <action
+            android:id="@+id/actionListSelectionToItemListFragment"
+            app:destination="@id/itemListFragment">
+            <argument
+                android:name="listId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/itemListFragment"
+        android:name="com.example.fetch.view.ItemListFragment"
+        android:label="Item List">
+        <argument
+            android:name="listId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/savedItemsFragment"
+        android:name="com.example.fetch.view.SavedItemsFragment"
+        android:label="Saved Items Fragment"
+        tools:layout="@layout/fragment_saved_items" />
+</navigation>

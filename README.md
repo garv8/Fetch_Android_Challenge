@@ -29,26 +29,26 @@ This is an Android application developed as part of a coding exercise for Fetch 
 - ## Project Structure
 
 The project is structured as follows:
-- MainActivity.kt                   # Hosts the navigation component
-- fragments/
-  - ListSelectionFragment.kt         # Displays grouped list IDs
-  - ItemListFragment.kt              # Displays items for a selected list ID
-- viewmodel/
-  - ItemViewModel.kt                 # Handles data fetching and saving states
-  - ViewModelFactory.kt              # Creates ViewModel with dependencies
-- adapter/
-  - ListAdapter.kt                   # Adapter for ListSelectionFragment
-  - ItemAdapter.kt                   # Adapter for ItemListFragment
-- model/
-  - Item.kt                          # Data class representing an item
-- repository/
-  - ItemRepository.kt                # Manages data fetching logic
-- utils/
-  - NetworkUtils.kt                  # Checks for internet connectivity
-- layout/
-  - activity_main.xml                # Layout for MainActivity
-  - fragment_list_selection.xml      # Layout for ListSelectionFragment
-  - fragment_item_list.xml           # Layout for ItemListFragment
+- `MainActivity.kt`                   # Hosts the navigation component
+- `fragments`/
+  - `ListSelectionFragment.kt`         # Displays grouped list IDs
+  - `ItemListFragment.kt`              # Displays items for a selected list ID
+- `viewmodel`/
+  - `ItemViewModel.kt`                 # Handles data fetching and saving states
+  - `ViewModelFactory.kt`              # Creates ViewModel with dependencies
+- `adapter`/
+  - `ListAdapter.kt`                   # Adapter for ListSelectionFragment
+  - `ItemAdapter.kt`                   # Adapter for ItemListFragment
+- `model`/
+  - `Item.kt`                          # Data class representing an item
+- `repository`/
+  - `ItemRepository.kt`                # Manages data fetching logic
+- `utils`/
+  - `NetworkUtils.kt`                  # Checks for internet connectivity
+- `layout`/
+  - `activity_main.xml`                # Layout for MainActivity
+  - `fragment_list_selection.xml`      # Layout for ListSelectionFragment
+  - `fragment_item_list.xml`           # Layout for ItemListFragment
 
 ## How to Run the Project
 

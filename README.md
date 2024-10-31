@@ -12,7 +12,7 @@ This is an Android application developed as part of a coding exercise for Fetch 
 - **Network Error Handling**: Checks for internet connectivity and displays a dialog if not connected.
 - **Loading Indicator**: Shows a loading indicator while data is being fetched.
 
-- ## Tech Stack
+## Tech Stack
 
 - **Kotlin**: Main programming language used for app development.
 - **Android Jetpack Components**:
@@ -26,7 +26,7 @@ This is an Android application developed as part of a coding exercise for Fetch 
 - **Coroutines**: Allows for asynchronous network requests, keeping the UI responsive.
 - **RecyclerView**: Efficiently displays lists of grouped items.
 
-- ## Project Structure
+## Project Structure
 
 The project is structured as follows:
 - `MainActivity.kt`                   # Hosts the navigation component
